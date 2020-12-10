@@ -42,8 +42,10 @@ The variable "SalePrice" refers to the price at which a property was sold and he
   - Draw a correlation plot to see all correlations between Y and the independent (numeric) variables (Hint: use df.plotting.scatter_matrix or seaborn.pairplot)
 
   
-### Exercise 4
-
-  - Estimate a LASSO model and a kNN model
-  - Assess which model performs best
-
+### Exercise 4 (rewritten based on feedback from Daniel Kapitan and own ideas)
+  - Compare impact of 'simple','average' and 'full' feature engineering on final results (see sections A., B. & C.)
+  - Compare LASSO and KNN model performance (see section D.)
+  - Determine the lowest num of features using SelectKBest to reach top quart of ranking table (RMSE=0120?). (see section E.)
+  - Apply PCA to determine if a lower amount can be achieved (see section F.)
+  - Compare with Lasso feature selection (see section G.)
+ 
